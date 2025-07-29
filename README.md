@@ -1,6 +1,6 @@
 # UE5实时通讯：用WebSocket构建在线互动体验
 
-![项目演示GIF](https://via.placeholder.com/800x450.png?text=在此处替换为项目演示GIF或截图)
+![项目演示GIF](https://media.githubusercontent.com/media/michael-chen2010/WebsocketTutorial-UE5.6/refs/heads/main/docs/demo.gif)
 
 这是一个基于 **Unreal Engine 5.6** 和 **NWebSocket** 插件的教学示例项目，旨在演示如何构建一个健壮、可重用的WebSocket通信解决方案。
 
