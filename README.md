@@ -2,7 +2,7 @@
 
 ![项目演示GIF](https://via.placeholder.com/800x450.png?text=在此处替换为项目演示GIF或截图)
 
-这是一个基于 **Unreal Engine 5.6** 和 **NWebSocket** 插件的教学示例项目，旨在演示如何构建一个健壮、可重用、纯蓝图的WebSocket通信解决方案。
+这是一个基于 **Unreal Engine 5.6** 和 **NWebSocket** 插件的教学示例项目，旨在演示如何构建一个健壮、可重用的WebSocket通信解决方案。
 
 本项目完整地实现了PPT大纲中所述的核心功能，包括模块化的组件设计、心跳保活、断线自动重连以及结构化的JSON消息协议。
 
@@ -83,9 +83,9 @@ node server.js
 
 ### 2. 运行Unreal Engine项目
 
-1.  **生成项目文件**: 在 `WebsocketTest/` 目录下，右键点击 `WebsocketTest.uproject` 文件，选择 `Generate Visual Studio project files`。
-2.  **打开项目**: 在UE编辑器中打开 `WebsocketTest.uproject` 项目。
-3.  **运行游戏**: 点击编辑器上方的 `运行` (Play) 按钮。
+1.  **打开项目**: 导航到 `WebsocketTest/` 目录，直接双击 `WebsocketTest.uproject` 文件。
+2.  **自动编译**: 首次打开时，Unreal Engine可能会弹出窗口提示“Missing ... Modules... Would you like to rebuild them now?”。请点击 **“是” (Yes)**，编辑器将自动编译插件和项目代码。
+3.  **运行游戏**: 项目成功加载后，点击编辑器顶部的 `运行` (Play) 按钮。
 
 ---
 
@@ -158,4 +158,3 @@ node server.js
 ## 📄 许可证
 
 本项目采用 [MIT License](LICENSE.md) 许可证。
-```

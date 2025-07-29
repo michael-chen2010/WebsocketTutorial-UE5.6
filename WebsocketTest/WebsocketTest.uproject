@@ -24,6 +24,10 @@
 		{
 			"Name": "GameplayStateTree",
 			"Enabled": true
+		},
+		{
+			"Name": "VaRest",
+			"Enabled": true
 		}
 	]
 }

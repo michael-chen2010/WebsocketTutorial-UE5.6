@@ -88,7 +88,8 @@ wss.on('connection', (ws) => {
                 let broadcastCount = 0;
                 wss.clients.forEach((client) => {
                     // 不要发给自己，且确保客户端处于打开状态再发送
-                    if (client !== ws && client.readyState === WebSocket.OPEN) {
+                    //if (client !== ws && client.readyState === WebSocket.OPEN) {
+                    if (client.readyState === WebSocket.OPEN) {
                         client.send(broadcastMessage);
                         broadcastCount++;
                     }

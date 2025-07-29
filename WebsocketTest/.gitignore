@@ -1,5 +1,7 @@
 Content/Audio/**/*.wav
 Content/Blueprints/UMG/Textures/**/*.png
+Plugins/FCAvatarSDK/Content/Avatar.json
+Plugins/FCAvatarSDK/Content/FaceControllerData.json
 
 Binaries/*
 Intermediate
